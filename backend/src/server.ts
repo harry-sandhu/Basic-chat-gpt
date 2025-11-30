@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 
-import dataRoutes from "./routes/data.ts";
+import dataRoutes from "./routes/data.js";
 
 app.use("/api", dataRoutes);
 app.use("/.well-known", express.static(".well-known"));
