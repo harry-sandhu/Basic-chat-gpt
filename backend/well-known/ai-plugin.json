@@ -2,16 +2,16 @@
   "schema_version": "v1",
   "name_for_human": "Student Manager",
   "name_for_model": "student_manager",
-  "description_for_human": "Manage student data saved in a JSON file.",
-  "description_for_model": "This API allows reading, adding, updating, and deleting students. Use it to modify student data stored in a JSON file.",
+  "description_for_human": "Manage student data stored in JSON on your backend.",
+  "description_for_model": "Use this API to read, create, update, and delete students stored in JSON. You can modify grades, add new students, or fetch any student by roll number.",
   "auth": {
     "type": "none"
   },
   "api": {
     "type": "openapi",
-    "url": "https://YOUR_DEPLOYED_BACKEND_URL/.well-known/openapi.yaml"
+    "url": "https://basic-chat-gpt.onrender.com/.well-known/openapi.yaml"
   },
-  "logo_url": "https://YOUR_DEPLOYED_BACKEND_URL/logo.png",
+  "logo_url": "https://basic-chat-gpt.onrender.com/logo.png",
   "contact_email": "support@example.com",
   "legal_info_url": "https://example.com/legal"
 }

@@ -5,7 +5,7 @@ info:
   description: API for reading and modifying students stored in a JSON file.
 
 servers:
-  - url: https://YOUR_DEPLOYED_BACKEND_URL/api
+  - url: https://basic-chat-gpt.onrender.com/api
 
 paths:
   /students:
