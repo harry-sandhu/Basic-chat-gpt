@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Student Manager",
+  "name_for_model": "student_manager",
+  "description_for_human": "Manage student data saved in a JSON file.",
+  "description_for_model": "This API allows reading, adding, updating, and deleting students. Use it to modify student data stored in a JSON file.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://YOUR_DEPLOYED_BACKEND_URL/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://YOUR_DEPLOYED_BACKEND_URL/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "https://example.com/legal"
+}
